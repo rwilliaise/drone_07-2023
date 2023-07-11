@@ -1,0 +1,72 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 27813550-250b-4d55-b1d2-e8a294c4a015)
+
+  (paper "A4")
+
+  (title_block
+    (title "URONE")
+    (date "2023-07-05")
+    (rev "0")
+    (company "Udestries")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 81.28 66.04) (size 48.26 50.8) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 17696ae5-ad71-4ae4-8864-f3f1747a36dd)
+    (property "Sheetname" "PROCESSING" (at 81.28 65.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "processing.kicad_sch" (at 81.28 117.4246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "drone_07-2023"
+        (path "/27813550-250b-4d55-b1d2-e8a294c4a015" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 170.18 99.06) (size 27.94 25.4) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1a7b1779-d443-4c2c-95d3-2cda24b81218)
+    (property "Sheetname" "MOTOR CONTROL" (at 170.18 98.3484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "motor_control.kicad_sch" (at 170.18 125.0446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "drone_07-2023"
+        (path "/27813550-250b-4d55-b1d2-e8a294c4a015" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 156.21 46.99) (size 39.37 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid eee5e2dd-0165-4980-9fad-aa2d2b073b6d)
+    (property "Sheetname" "POWER MANAGEMENT" (at 156.21 46.2784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 156.21 81.8646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "drone_07-2023"
+        (path "/27813550-250b-4d55-b1d2-e8a294c4a015" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
